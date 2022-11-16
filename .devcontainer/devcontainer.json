@@ -1,0 +1,17 @@
+{
+	"name": "Java & PostgreSQL",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "app",
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+	"customizations": {
+
+		"vscode": {
+			"settings": { 
+			},			
+			"extensions": [
+				"vscjava.vscode-java-pack"
+			]
+		}
+	}
+
+}
